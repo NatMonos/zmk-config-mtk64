@@ -93,6 +93,9 @@
         #input-processor-cells = <2>;
         require-prior-idle-ms = <500>;
         excluded-positions = <
+            31  // J  ← 追加
+            32  // K  ← 追加
+            33  // L  ← 追加
             43  // ] 
             44  // N
             45  // M
